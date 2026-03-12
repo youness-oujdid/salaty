@@ -16,7 +16,7 @@ export default defineConfig({
         background_color: '#0a0f1e',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/salaty/',
+        start_url: '/',
         icons: [
           { src: 'icons/icon-192x192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icons/icon-512x512.png', sizes: '512x512', type: 'image/png' },
@@ -57,7 +57,6 @@ export default defineConfig({
       }
     })
   ],
-  base: '/salaty/',
   server: { port: 3000, open: true },
   build: { outDir: 'dist', sourcemap: true }
 });
