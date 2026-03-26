@@ -852,13 +852,38 @@ export default function Salaty() {
           <div style={{ textAlign: "center", fontSize: 12, color: textSecondary, marginTop: 24, letterSpacing: "0.05em" }}>
             Prayer times powered by AlAdhan API · {CALC_METHODS.find((m) => m.id === calcMethod)?.name}
           </div>
-          <div style={{ textAlign: "center", fontSize: 12, color: textSecondary, marginTop: 24, letterSpacing: "0.05em" }}>
-            Cooperate All right reserved  © 2026
-            Portfolio:{" "}
-            <a href="https://youness-oujdid.github.io/" target="_blank" rel="noopener noreferrer" style={{ color: gold }}>
-              youness-oujdid.github.io
-            </a>
-          </div>
+          <div
+            style={{
+              textAlign: "center",
+              fontSize: 12,
+              color: textSecondary,
+              marginTop: 32,
+              paddingTop: 16,
+              borderTop: `1px solid ${textSecondary}20`,
+              letterSpacing: "0.05em",
+        }}
+>
+          <span style={{ opacity: 0.8 }}>
+            © 2026 Youness Oujdid. All rights reserved.
+          </span>
+
+          <span style={{ margin: "0 8px", opacity: 0.5 }}>•</span>
+
+          <a
+            href="https://youness-oujdid.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: gold,
+              textDecoration: "none",
+              transition: "all 0.2s ease",
+            }}
+            onMouseOver={(e) => (e.currentTarget.style.opacity = "0.7")}
+            onMouseOut={(e) => (e.currentTarget.style.opacity = "1")}
+          >
+            Portfolio
+          </a>
+        </div>
         </div>
 
         {/* Settings Panel */}
