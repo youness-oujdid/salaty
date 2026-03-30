@@ -47,7 +47,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/salaty.git
+git clone https://github.com/youness-oujdid/salaty.git
 cd salaty
 
 # Install dependencies
